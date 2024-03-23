@@ -3,8 +3,16 @@
   padding: 0;
   box-sizing: border-box;
 }
-span {
 
+.icon-container {
+  text-align: center;
+  margin: 20px;
+  padding: 25px;
+}
+
+/* simulate button */
+.icon-container span {
+cursor: pointer; 
 }
 
 body {
@@ -119,4 +127,10 @@ footer {
   text-align: center;
   padding: 20px 0;
   font-size: 14px;
+}
+
+.content {
+  text-align: center;
+  margin: 20px;
+  padding: 25px;
 }
